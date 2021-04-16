@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsHttpApiFramework", "CsHttpApiFramework\CsHttpApiFramework.csproj", "{EDE183E9-03C7-4814-A1A4-19075276BFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsHttpApiServer", "CsHttpApiServer\CsHttpApiServer.csproj", "{B306D20C-AB5B-4B59-A1FA-9BA938798F0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDE183E9-03C7-4814-A1A4-19075276BFF4} = {EDE183E9-03C7-4814-A1A4-19075276BFF4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE183E9-03C7-4814-A1A4-19075276BFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE183E9-03C7-4814-A1A4-19075276BFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE183E9-03C7-4814-A1A4-19075276BFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE183E9-03C7-4814-A1A4-19075276BFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B306D20C-AB5B-4B59-A1FA-9BA938798F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B306D20C-AB5B-4B59-A1FA-9BA938798F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B306D20C-AB5B-4B59-A1FA-9BA938798F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B306D20C-AB5B-4B59-A1FA-9BA938798F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690A4A2A-47F1-4E86-A600-770ACC0DF504}
+	EndGlobalSection
+EndGlobal
