@@ -1,4 +1,6 @@
-
 *.nupkg
 *.nuspec
 *.bat
+.vs/*
+*/bin/*
+*/obj/*

@@ -78,7 +78,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CsApiFramework\CsHttpApiFramework.csproj">
+    <ProjectReference Include="..\CsHttpApiFramework\CsHttpApiFramework.csproj">
       <Project>{ede183e9-03c7-4814-a1a4-19075276bff4}</Project>
       <Name>CsHttpApiFramework</Name>
     </ProjectReference>
